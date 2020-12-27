@@ -1,0 +1,39 @@
+<view class="guide-UI">
+
+    <text style="font-size:60rpx;color:blue;">使用指南</text>
+    <text style="color: rgb(253, 78, 15);" class="" selectable="false" space="false" decode="false">
+        欢迎使用“设备图书馆”实验设备共享平台
+    </text>
+    <text class="" selectable="false" space="false" decode="false">
+        具体使用说明如下
+    </text>
+    <view style="justify-content: flex-start;padding-left: 20rpx;">
+        
+        <text class="" selectable="false" space="false" decode="false">
+            1.选择你需要借取的设备
+        </text>
+        <text class="" selectable="false" space="false" decode="false">
+            2.选择借用的时长
+        </text>
+        <text class="" selectable="false" space="false" decode="false">
+            3.支付对应的租金或者进行身份认证
+        </text>
+        <text class="" selectable="false" space="false" decode="false">
+            4.扫码取出设备
+        </text>
+        <text class="" selectable="false" space="false" decode="false">
+            5.在规定时间内归还设备
+        </text>
+        <text class="" selectable="false" space="false" decode="false">
+            6.归还前下载对应的测试程序到设备中以便服务器检测设备是否正常
+        </text>
+    </view>
+      
+    
+      
+      
+      
+      
+        
+</view>
+  

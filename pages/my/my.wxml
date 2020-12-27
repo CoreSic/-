@@ -1,0 +1,60 @@
+<!--pages/my/my.wxml-->
+<view >
+  <block wx:if="{{isLogin}}">
+    <view class='container'>
+      <image src='{{src}}' class='weixin'></image>
+      <view class="name">
+        <text>{{name}}</text>
+        <text >成都信息工程大学</text>
+      </view>
+    </view>
+    <view class="MyFunction">
+
+      <view class="MyFunction-UI">
+        <image class="MyFunction-image" src="/images/my/kefu-1.png" bindtap="goToKefu"></image>
+        <text>
+          客服中心
+        </text>
+      </view>
+
+      <view class="MyFunction-UI">
+        <image class="MyFunction-image" src="/images/my/xiaoxi-1.png" bindtap="goToXinxi"></image>
+        <text >
+         我的消息
+        </text> 
+      </view>
+         
+      <view class="MyFunction-UI">
+        <image class="MyFunction-image" src="/images/my/tucao-2.png" bindtap="goToTocao"></image>
+        <text >
+         我要吐槽
+        </text> 
+      </view>
+        
+      <view class="MyFunction-UI">
+        <image class="MyFunction-image" src="/images/my/shezhi-1.png" bindtap="goToShezhi"></image>
+        <text >
+         设置中心
+        </text> 
+      </view>
+        
+      <view class="MyFunction-UI">
+        <image class="MyFunction-image" src="/images/my/banben-1.png" bindtap="goToBanben"></image>
+        <text >
+         版本检测
+        </text> 
+      </view>
+        
+    </view>
+  </block>
+  <view wx:else style="display: flex;flex-direction: column;align-items: center;justify-content: center;">
+      <button class="button-user"  open-type='getUserInfo' bindgetuserinfo='getMyInfo'>登录</button>
+  </view>
+    
+    
+  <!-- open-type='getUserInfo' 表示激活获取微信用户信息功能 -->
+  <!-- bindgetuserinfo='getMyInfo' 表示获得的数据传递给自定义函数getMyInfo，名字可以自己取 -->
+</view>
+<!-- 我的-功能区 -->
+
+

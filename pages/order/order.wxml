@@ -1,0 +1,25 @@
+<!--pages/order/order.wxml-->
+<view class="dingdan-picture">
+  <image class="future" src="/images/order/dianzi-future.jpg"></image>
+</view>
+<!-- 我借的设备-列表 -->
+<view class="Shebei-list">
+
+  <text>我借的设备（{{number}}）</text>
+  <view class="Shebei-item">
+    <image src="/images/index/shebei-5.jpg"></image>
+    <view class="Shebei-item-number">
+      <text>Arduino uno r3开发板主板 意大利原装英文版 Arduino学习套件</text>
+      <text class="Shebei-date">距离归还还有：23天</text>
+    </view>
+  </view>
+
+  <view class="Shebei-item">
+    <image src="/images/index/shebei-2.jpg"></image>
+    <view class="Shebei-item-number">
+      <text>7020 人工智能 7010 正点原子领航者zynq开发...</text>
+      <text class="Shebei-date">距离归还还有：15天</text>
+    </view>
+  </view>
+
+</view>

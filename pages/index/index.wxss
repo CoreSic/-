@@ -1,0 +1,53 @@
+.SousuoArea{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.SousuoArea input{
+  height: 70rpx;
+  border: 1rpx solid #986e384d; /*边框*/
+  flex-grow: 1;/*扩张多余空间*/
+}
+.Sousuo-button{
+  height: 70rpx;
+  color: white;
+  background-color: #1563f3b4;
+}
+.saoma{
+  height: 100rpx;
+  width: 100rpx;
+}
+.function-index{
+  height: 120rpx;
+  background-color: rgba(9, 63, 241, 0.753); 
+  display: flex;
+  flex-direction: row;
+}
+.function-index-box{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;/*水平居中*/
+  justify-content: center;/*垂直居中*/
+  font-size: 30rpx;
+  color: rgb(255, 255, 255);
+}
+.function-index image{
+  height: 60rpx;
+  width: 60rpx;
+}
+.function-index-text{/*公告栏文字*/
+  /* background-color: rgba(241, 133, 9, 0.918); */
+  height: 50rpx;
+  width: 100%;
+}
+.function-index-text{
+  color: rgb(0, 0, 0);
+}
+.function-index text{
+  height: 40rpx;
+}
+.Shebei-number{
+  color: rgb(1, 1, 194);
+}

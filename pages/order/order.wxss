@@ -1,0 +1,15 @@
+/* pages/order/order.wxss */
+.dingdan-picture{
+  height: 400rpx;
+  background-color: #328EEB;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.dingdan-picture image{
+  width: 100%;
+}
+.Shebei-date{
+  color: rgb(1, 1, 194);
+}

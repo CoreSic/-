@@ -1,0 +1,75 @@
+/* pages/my/my.wxss */
+/* 样式设计 */
+.container{
+
+  height: 240rpx; /*高12视窗，这里写12%是无效的*/
+  display: flex; /*flex布局方法*/
+  flex-direction: row; /*水平布局*/
+  align-items: center; /*水平方向居中*/
+  justify-content: flex-start; /*垂直方向从左布局*/
+  padding: 0 0 0 80rpx;/*边距-上-右-下-左*/
+  background-color: rgba(245, 183, 14, 0.911);
+}
+.weixin{
+  width: 120rpx; /*图片宽度*/
+  height: 120rpx;
+  border-radius: 50%; /*4个角变为圆角形状*/
+}
+text{
+  font-size: 30rpx; /*字体大小*/
+  color: black; /*颜色*/
+}
+.button-user{
+  width: 30%;
+  color: white;
+  background-color: rgba(38, 158, 38, 0.993);
+  height: 80rpx; /*高12视窗，这里写12%是无效的*/
+  display: flex; /*flex布局方法*/
+  flex-direction: row; /*水平布局*/
+  align-items: center; /*水平方向居中*/
+  justify-content: center; /*垂直方向布局*/
+}
+.MyFunction{
+  height: 80vh; /*高100视窗，这里写100%是无效的*/
+  width: 100%;
+  display: flex; /*flex布局方法*/
+  flex-direction: column; /*垂直布局*/
+  align-items: flex-start; /*水平方向居中*/
+  color: rgb(rgb(255, 251, 0));
+}
+.MyFunction-show{
+  height: 10vh;/*注：必须加这句才能正常显示*/
+  border-bottom:1rpx solid black;
+}
+.MyFunction-UI{
+  height: 120rpx;
+  width: 100%;
+  display: flex; /*flex布局方法*/
+  flex-direction: row; /*水平布局*/
+  align-items: flex-start; /*水平方向从左开始*/
+  justify-content: flex-start; /*垂直方向分散布局 */
+  padding-left: 10rpx;
+  padding-top: 20rpx;
+  /*background-color: rgba(107, 247, 52, 0.911);*/
+  border-bottom:1rpx solid rgb(59, 36, 1);
+}
+.MyFunction-image{
+  width: 100rpx; /*图片宽度*/
+  height: 100rpx;
+  border-radius: 50%; /*4个角变为圆角形状*/
+}
+.MyFunction-UI text{
+  height: 40rpx;
+  display: flex; /*flex布局方法*/
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: center; /*垂直方向分散布局 */
+  padding-left: 10rpx;
+  font-size: 40rpx;
+}
+.name{
+  display: flex; /*flex布局方法*/
+  flex-direction: column; /*垂直布局*/
+  align-items: flex-start; /*水平方向从左布局*/
+  padding: 20rpx;
+}
