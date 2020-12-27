@@ -1,0 +1,24 @@
+.Shebei-list{
+  min-height: 600rpx;
+  padding: 15rpx;
+}
+.Shebei-item{
+  display: flex;
+  flex-direction: row;
+  border-bottom:1rpx solid black;
+}
+.Shebei-item-number{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+.Shebei-item image{
+  height: 150rpx;
+  width: 230rpx;
+  margin: 10rpx;
+}
+.Shebei-list text{
+  width: 100%;
+  line-height: 60rpx;
+  font-size: 32rpx;
+}
