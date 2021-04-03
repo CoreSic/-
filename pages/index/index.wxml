@@ -1,3 +1,5 @@
+<!-- github.com/CoreSic -->
+
 <!-- 搜索栏 -->
 <view class='SousuoArea'>
   <input type='emoji' placeholder="请输入设备名" bindinput="getShebei"></input>
